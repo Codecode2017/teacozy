@@ -1,0 +1,171 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 60px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  padding-left: 10px;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+  items-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+  text-align: right;
+}
+
+header nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1300px;
+  margin: auto;
+}
+
+div {
+  display: block;
+}
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  background-color: black;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+
+.store {
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  display: flex;
+  background-color: black;
+  width: 1000px;
+}
+
+.square img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.store,.tea {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.square span {
+  justify-content: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+#items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+}
+
+.tealocation h2 {
+  justify-content: center;
+  text-align: center;
+  display: center
+}
+
+.block1 .block {
+  display: inline-table;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  column-count: 3;
+  background-color: black;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width: 300px
+}
+
+.block1 {
+justify-content: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.block span {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.container4 {
+  display: block;
+  height: 200px;
+}
+
+.teacozy h2,h5 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer {
+  display: flex;
+}
+
+.footer h5 {
+  display: flex;
+  text-align: left;
+}
